@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+.gloock-regular {
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.primary-color {
+    color: #E9E2D2;
+}
+
+.bg-primary-color {
+    background-color: #E9E2D2;
+}
+
+.text-secondary-color {
+    color: #222222;
+}
+
+.secondary-color {
+    background-color: #222222;
+}
+
+.third-color {
+    background-color: #E6C7B4;
+}
+
+.fourth-color {
+    background-color: #DCE2E8;
+}
+
+.fifth-color {
+    background-color: #C2B5BA;
+}
+
+.line {
+    transform: translateY (100%);
+    will-change: transform;
+}
+
+.hover-effect {
+    transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: scale(1.05);
+}
